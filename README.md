@@ -7,7 +7,7 @@
 
 ## Content
 
-- Project Description (Introduction)
+- Project Description 
 - Objective
 - Dataset
 - Stack
@@ -28,11 +28,11 @@ counts towards ranking and achievements.
 ## Objective
 
 1. Analyze what impacts Weekly Sales.
-2. Analyze and predict Weekly Sales using a machine learning model, in this case I chose Simple Linear Regression and Multiple linear Regression.
+2. Analyze and predict Weekly Sales using Simple Linear Regression and Multiple linear Regression.
 
 ## Dataset
 
-The data is from Kaggle and was provided by Walmart. It containts historical sales data for 45 Walmart stores located in different regions. 
+The data is from [kaggle](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data) provided by Walmart and contains historical sales data for 45 Walmart stores located in different regions. 
 Each store contains a number of departments.
 
 ### Table descriptions
@@ -77,7 +77,7 @@ This file contains additional data related to the store, department, and regiona
 
 ## Project Management
 - Trello
-- 
+
 ## In this repository:
 
 - In the folder code you can find the jupyter notebook with python code used to access the data, clean it and train our machinel earning model.
@@ -89,11 +89,13 @@ This file contains additional data related to the store, department, and regiona
 - Most features have no linear relationship with Weekly Sales.
 - There is correlation between Year and Fuel Price, which makes sense.
 - The r2 score of our Multiple Linear Regression model was just 0.069 and the difference between the actual and predicted value is high. 
-- For this challenge, other models such as DecisionTreeRegressor, GradientBoostingRegressor or RandomForestRegressor as they work well on large datasets, and are able towork with missing data by creating estimates for them and they generally produce better results.
+- Thus Multiple Linear Regression is not the right model for this prediction.
+- For this challenge, other models such as DecisionTreeRegressor, GradientBoostingRegressor or RandomForestRegressor generally produce better results as they work well on large datasets, and are able towork with missing data by creating estimates for them.
 
 ## Limitation
 - Large dataset
 - Time constraint
+- Basically no correlation with the target variable
 
 ## Extra Steps
 - More Feature Engineering
