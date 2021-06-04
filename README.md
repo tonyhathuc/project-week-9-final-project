@@ -37,11 +37,11 @@ Each store contains a number of departments.
 
 ### Table descriptions
 
-- #### stores.csv
+### stores.csv
 
 Contains anonymized information about the 45 stores, indicating the type and size of store.
 
-###train.csv
+### train.csv
 
 The historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file we will find the following fields:
 
@@ -80,8 +80,8 @@ This file contains additional data related to the store, department, and regiona
 
 ## In this repository:
 
-- In the folder code you can find the jupyter notebook with python code used to access the data, clean it and train our machinel earning model.
-- Data folder contains the .csv files 
+- In the folder [code](https://github.com/tonyhathuc/project-week-9-final-project/tree/master/code)  you can find the jupyter notebook with python code used to access the data, clean it and train our machinel earning model.
+- In [data](https://github.com/tonyhathuc/project-week-9-final-project/tree/master/data) folder you can find the .csv files 
 
 ## Conclusions
 - Holiday seasons contributes to spike in Weekly Sales
