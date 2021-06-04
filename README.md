@@ -67,3 +67,14 @@ This file contains additional data related to the store, department, and regiona
 - CPI - the consumer price index
 - Unemployment - the unemployment rate
 - IsHoliday - whether the week is a special holiday week
+
+## Stack
+- With Python
+..* numPy and Pandas for cleaning and wrangling
+..* Seaborn, MatPlotLib and Plotly for visualisations
+..* SciKitLearn for machine learning deployment
+--* Google Slides for presentation
+
+## In this repository:
+
+- 
