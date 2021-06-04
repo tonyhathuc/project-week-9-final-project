@@ -69,11 +69,11 @@ This file contains additional data related to the store, department, and regiona
   - IsHoliday - whether the week is a special holiday week
 
 ## Stack
-- With Python
- ..* numPy and Pandas for cleaning and wrangling
- ..* Seaborn, MatPlotLib and Plotly for visualisations
- ..* SciKitLearn for machine learning deployment
- ..* Google Slides for presentation
+Python
+ - numPy and Pandas for cleaning and wrangling
+ - Seaborn, MatPlotLib and Plotly for visualisations
+ - SciKitLearn for machine learning deployment
+ - Google Slides for presentation
 
 ## Project Management
 - Trello
