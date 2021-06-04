@@ -70,11 +70,14 @@ This file contains additional data related to the store, department, and regiona
 
 ## Stack
 - With Python
-..* numPy and Pandas for cleaning and wrangling
-..* Seaborn, MatPlotLib and Plotly for visualisations
-..* SciKitLearn for machine learning deployment
---* Google Slides for presentation
+..*numPy and Pandas for cleaning and wrangling
+..*Seaborn, MatPlotLib and Plotly for visualisations
+..*SciKitLearn for machine learning deployment
+..*Google Slides for presentation
 
+## Project Management
+- Trello
+- 
 ## In this repository:
 
 - In the folder code you can find the jupyter notebook with python code used to access the data, clean it and train our machinel earning model.
@@ -88,7 +91,11 @@ This file contains additional data related to the store, department, and regiona
 - The r2 score of our Multiple Linear Regression model was just 0.069 and the difference between the actual and predicted value is high. 
 - For this challenge, other models such as DecisionTreeRegressor, GradientBoostingRegressor or RandomForestRegressor as they work well on large datasets, and are able towork with missing data by creating estimates for them and they generally produce better results.
 
+## Limitation
+- Large dataset
+- Time constraint
 
-
-## Challenges
-- A very large dataset with a difficult challenge
+## Extra Steps
+- More Feature Engineering
+- Try DecisionTreeRegressor and RandomForestRegressor
+- Use LogisticRegression to see how much do holiday seasons impact Weekly Sales
