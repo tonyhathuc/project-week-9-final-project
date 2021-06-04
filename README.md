@@ -70,10 +70,10 @@ This file contains additional data related to the store, department, and regiona
 
 ## Stack
 - With Python
- -numPy and Pandas for cleaning and wrangling
- -Seaborn, MatPlotLib and Plotly for visualisations
- -SciKitLearn for machine learning deployment
- -Google Slides for presentation
+ ..* numPy and Pandas for cleaning and wrangling
+ ..* Seaborn, MatPlotLib and Plotly for visualisations
+ ..* SciKitLearn for machine learning deployment
+ ..* Google Slides for presentation
 
 ## Project Management
 - Trello
