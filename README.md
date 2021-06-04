@@ -37,7 +37,7 @@ Each store contains a number of departments.
 
 ### Table descriptions
 
-**stores.csv**
+#### stores.csv
 
 Contains anonymized information about the 45 stores, indicating the type and size of store.
 
@@ -51,11 +51,11 @@ The historical training data, which covers to 2010-02-05 to 2012-11-01. Within t
 - Weekly_Sales -  sales for the given department in the given store
 - IsHoliday - whether the week is a special holiday week
 
-**test.csv**
+#### test.csv
 
 This file is identical to train.csv, except we have withheld the weekly sales.
 
-**features.csv**
+#### features.csv
 
 This file contains additional data related to the store, department, and regional activity for the given dates. It contains the following fields:
 
@@ -77,4 +77,18 @@ This file contains additional data related to the store, department, and regiona
 
 ## In this repository:
 
-- 
+- In the folder code you can find the jupyter notebook with python code used to access the data, clean it and train our machinel earning model.
+- Data folder contains the .csv files 
+
+## Conclusions
+- Holiday seasons contributes to spike in Weekly Sales
+- In terms of sales, 2012 was the weakest in sales compared to 2010, 2011
+- Most features have no linear relationship with Weekly Sales.
+- There is correlation between Year and Fuel Price, which makes sense.
+- The r2 score of our Multiple Linear Regression model was just 0.069 and the difference between the actual and predicted value is high. 
+- For this challenge, other models such as DecisionTreeRegressor, GradientBoostingRegressor or RandomForestRegressor as they work well on large datasets, and are able towork with missing data by creating estimates for them and they generally produce better results.
+
+
+
+## Challenges
+- A very large dataset with a difficult challenge
