@@ -9,10 +9,12 @@
 - Project Description 
 - Dataset
 - Stack
-- Conclusion
-- Challenges
-- Future analysis
 - Project management
+- In this repository
+- Conclusions
+- Challenges
+- Extra Steps
+
 
 
 ## Project Description
@@ -56,7 +58,7 @@ Python
 - Random Forest Regressor performed the best, with the accuracy of 95.93%, second was Decision Tree Regressor with 94.93% followed by KNeighboursRegressor with 34.99%. 
 - Random ForestRegressor wins as it generally produces better results and work well on large dataset and is able to work with missing data by creating estimates for them.
 
-## Limitation
+## Challenges
 - Large dataset
 - Time constraint
 - Basically no correlation with the target variable
