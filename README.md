@@ -4,6 +4,7 @@
 *Ironhack Data Analytics - March 2021 cohort*
 
 ## Kaggle Competition - Walmart Sales Forecasting
+
 ## Content
 
 - Project Description 
